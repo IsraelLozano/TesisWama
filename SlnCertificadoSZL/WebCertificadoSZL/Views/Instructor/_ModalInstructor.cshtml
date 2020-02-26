@@ -1,0 +1,63 @@
+﻿@model Entidades.Persona
+
+
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header" style="cursor: pointer;">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h5 class="modal-title" id="Prueba2">
+                <i class="fa fa-chevron-circle-right"></i>
+                @if (Model.IdPersona > 0)
+                {
+                    <text>Actualizar Instructor</text>
+                }
+                else
+                {
+                    <text>Nuevo Instructor</text>
+                }
+            </h5>
+        </div>
+
+        @using (Ajax.BeginForm("NuevoInstructor", "Instructor",
+                    new AjaxOptions { HttpMethod = "POST", OnSuccess = "respuesta" }
+                    , new { @id = "frmInstructor" }))
+        {
+            <div class="modal-body" id="divDirecionDetalle">
+                @Html.Partial("_DetalleModalInstructor", Model)
+            </div>
+
+            <div class="modal-footer">
+                <div class="btn-group">
+                    <button id="btnAceptar" type="button" class="btn btn-success btn-sm">Aceptar</button>
+                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+
+    function respuesta(rest) {
+        //if (rest) {
+        //    $("#divDirecionDetalle").html(rest);
+        //    return;
+        //}
+        if (!rest) {
+            $("#divDirecionDetalle").html(rest);
+            return;
+        }
+        $('#contenedor').modal('hide');
+        $("#frmListaInstructo").submit();
+    }
+
+    $(document).ready(function () {
+        $("#btnAceptar").click(function () {
+            jqMensaje("¿Desea grabar la información ingresada?", function (rest) {
+                if (rest) {
+                    $("#frmInstructor").submit();
+                }
+            })
+        });
+    });
+</script>

@@ -1,0 +1,246 @@
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Views\ApplicationInsights.config
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.exe
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.exe.config
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.rsp
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csi.exe
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csi.rsp
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.AppContext.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Collections.Immutable.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Diagnostics.StackTrace.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.IO.FileSystem.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Reflection.Metadata.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.exe
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.exe.config
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.rsp
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\VBCSCompiler.exe
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\VBCSCompiler.exe.config
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.dll.config
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.pdb
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Antlr3.Runtime.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Entidades.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\log4net.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\LogicaNegocio.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Agent.Intercept.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.DependencyCollector.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.PerfCounterCollector.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.ServerTelemetryChannel.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Web.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.WindowsServer.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.ApplicationInsights.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.Web.Infrastructure.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Newtonsoft.Json.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Helpers.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Mvc.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Optimization.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Razor.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Deployment.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Razor.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebGrease.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\AccesoDatos.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Entidades.pdb
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\LogicaNegocio.pdb
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Helpers.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Mvc.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Optimization.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Razor.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Deployment.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Razor.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Antlr3.Runtime.pdb
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Newtonsoft.Json.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.ApplicationInsights.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.DependencyCollector.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.ServerTelemetryChannel.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.WindowsServer.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Web.xml
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\AccesoDatos.pdb
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Helpers.resources.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Mvc.resources.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Optimization.resources.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Razor.resources.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.resources.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.Deployment.resources.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.Razor.resources.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.csprojResolveAssemblyReference.cache
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.dll
+d:\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Views\ApplicationInsights.config
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.exe
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.exe.config
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.rsp
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csi.exe
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csi.rsp
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.AppContext.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Collections.Immutable.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.IO.FileSystem.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Reflection.Metadata.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.exe
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.exe.config
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.rsp
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\VBCSCompiler.exe
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\VBCSCompiler.exe.config
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.dll.config
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Antlr3.Runtime.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Entidades.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\log4net.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\LogicaNegocio.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.DependencyCollector.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Web.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.WindowsServer.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.ApplicationInsights.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.Web.Infrastructure.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Newtonsoft.Json.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Helpers.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Mvc.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Optimization.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Razor.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Deployment.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Razor.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebGrease.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\AccesoDatos.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Entidades.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\LogicaNegocio.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Helpers.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Mvc.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Optimization.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Razor.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Deployment.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Razor.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Antlr3.Runtime.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Newtonsoft.Json.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.ApplicationInsights.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.DependencyCollector.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.WindowsServer.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Web.xml
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\AccesoDatos.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Helpers.resources.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Mvc.resources.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Optimization.resources.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Razor.resources.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.resources.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.csprojAssemblyReference.cache
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.csproj.CopyComplete
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Views\ApplicationInsights.config
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.exe
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.exe.config
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csc.rsp
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csi.exe
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\csi.rsp
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.AppContext.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Collections.Immutable.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.IO.FileSystem.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\System.Reflection.Metadata.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.exe
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.exe.config
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\vbc.rsp
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\VBCSCompiler.exe
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\roslyn\VBCSCompiler.exe.config
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.dll.config
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebCertificadoSZL.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Antlr3.Runtime.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Entidades.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\log4net.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\LogicaNegocio.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.DependencyCollector.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Web.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.WindowsServer.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.ApplicationInsights.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.Web.Infrastructure.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Newtonsoft.Json.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Helpers.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Mvc.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Optimization.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Razor.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Deployment.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Razor.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\WebGrease.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\AccesoDatos.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Entidades.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\LogicaNegocio.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Helpers.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Mvc.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Optimization.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.Razor.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Deployment.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\System.Web.WebPages.Razor.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Antlr3.Runtime.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Newtonsoft.Json.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.ApplicationInsights.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.DependencyCollector.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.WindowsServer.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\Microsoft.AI.Web.xml
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\AccesoDatos.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Helpers.resources.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Mvc.resources.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Optimization.resources.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.Razor.resources.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.resources.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.Deployment.resources.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\bin\es\System.Web.WebPages.Razor.resources.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.csprojAssemblyReference.cache
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.csproj.CoreCompileInputs.cache
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.csproj.CopyComplete
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\WebCertificadoSZL\obj\Debug\WebCertificadoSZL.pdb

@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Entidades.Tblusuario>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover table-condensed">
+        <thead class="small">
+            <tr class="text-center">
+                <th class="text-center col-md-1" scope="col">ID</th>
+                <th class="text-center col-md-4" scope="col">Nombre Completo</th>
+                <th class="text-center col-md-1" scope="col">Codigo</th>
+                <th class="text-center col-md-1" scope="col">¿Tiene Certificado?</th>
+                <th class="text-center col-md-1" scope="col">Estado</th>
+                <th class="text-center col-md-1" scope="col">¿Reset?</th>
+                <th class="text-center col-md-1" scope="col">Vigencia Certificado</th>
+                <th class="text-center col-md-2" scope="col">Acción</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @if (Model.Any())
+            {
+                int cont = 0;
+                foreach (var item in Model)
+                {
+                    cont++;
+            <tr>
+                <td align="center">@item.IdPersona</td>
+                <td>@item.NombreCompleto</td>
+                <td align="center">@item.UsuarioCodigo</td>
+                <td align="center">@Html.CheckBox("Cert",item.TieneCertificado,new {disabled="true" })</td>
+                <td align="center">@Html.CheckBox("Est",item.Estado,new {disabled="true" })</td>
+                <td align="center">@Html.CheckBox("Est",item.Reset,new {disabled="true" })</td>
+                <td align="center">@item.VigenciaCertificado</td>
+                <td align="center">
+                    <button type="button" class="btn btn-info btn-xs modalUCP" 
+                            data-url="@Url.Action("NuevaInstructor", "Instructor", new { idpersona= item.IdPersona})"
+                             title="Clic aquí para editar">
+                        <i class="glyphicon glyphicon-pencil"></i>
+                    </button>
+                    <span class="dropdown">
+                        <button class="btn btn-default btn-xs dropdown-toggle" title="Lista de Opciones"
+                                type="button" id="idMenuContextual" data-toggle="dropdown" aria-expanded="true">
+                            <span class="glyphicon glyphicon-list"></span><span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right btn-sm text-left" role="menu" aria-labelledby="idMenuContextual">
+                            <li role="presentation"><a href="#" role="menuitem" tabindex="-1" onclick="AnularPersona('@item.IdPersona')">Asignar Certificado</a></li>
+                            <li role="presentation"><a href="#" role="menuitem" tabindex="-1" onclick="AnularPersona('@item.IdPersona')">Restablecer clave</a></li>
+                            <li role="presentation"><a href="#" role="menuitem" tabindex="-1" onclick="AnularPersona('@item.IdPersona')">Anular</a></li>
+                        </ul>
+                    </span>
+                    @*<button type="button" class="btn btn-info btn-xs modalUCP"
+                    data-url="@Url.Action("NuevaInstructor", "Instructor", new { idpersona= item.IdPersona})"
+                    title="Clic aquí para editar">
+                <i class="glyphicon glyphicon-pencil"></i>
+            </button>
+            <button type="button" class="btn btn-danger btn-xs" title="Clic aquí para Anular"
+                    onclick="AnularPersona('@item.IdPersona')">
+                <i class="glyphicon glyphicon-trash"></i>
+            </button>*@
+
+                </td>
+            </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="8">No se encontraron registros</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+
+<script>
+
+    function AnularPersona(idpersona) {
+            jqMensaje("¿Desea eliminar el registro seleccionado?", function (rest) {
+                if (rest) {
+                    $.getJSON('@Url.Action("AnularInstructor", "Instructor")', { 'IdPersona': idpersona }
+                , function (json) {
+                    if (json) {
+                        $("#frmListaInstructor").submit();
+                    }
+                });
+            }
+        });
+        }
+
+
+</script>

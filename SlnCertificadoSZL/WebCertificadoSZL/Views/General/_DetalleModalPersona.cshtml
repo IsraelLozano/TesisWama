@@ -1,0 +1,164 @@
+﻿@model Entidades.Persona
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-sm-12 col-md-12">
+
+
+            <div class="row form-horizontal">
+                <div class="col-sm-4 col-md-4">
+                    <div class="form-group">
+                        <label for="IdPersona" class="col-md-4 control-label small">Id</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(model => model.IdPersona, new { @class = "form-control input-sm toupper", @readonly = true })
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="form-group">
+                        <label for="apellidoPaterno" class="col-md-4 control-label">Ap. Paterno</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(model => model.ApellidoPaterno, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4">
+                    <div class="form-group">
+                        <label for="apellidoMaterno" class="col-md-4 control-label">Ap. Materno</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(model => model.ApellidoMaterno, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row form-horizontal">
+                <div class="col-md-12 col-md-12">
+                    @*Columna 1*@
+                    <div class="form-group col-md-6">
+                       
+                    </div>
+                   
+
+                  
+
+                    <label for="nombre" class="col-md-4 control-label">Nombre</label>
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(model => model.Nombres, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                    </div>
+
+                    <label for="tipoDocumento" class="col-md-4 control-label">Tipo Documento</label>
+                    <div class="col-md-8">
+                        @*@Html.TextBoxFor(model => model.TipoDocIdentidad, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })*@
+                        @Html.DropDownListFor(model => model.TipoDocIdentidad, new SelectList
+                          (ViewBag.TipoDocumentoIdentidad, "Codigo", "Descripcion"), "--SELECCIONE--",
+                           new { @class = "selectpicker", @data_width = "100%" })
+                    </div>
+
+                    <label for="dni" class="col-md-4 control-label">DNI</label>
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(model => model.NroDocidentidad, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                    </div>
+
+
+                    @*Columna 2*@
+
+                    <div class="form-group col-md-6">
+
+                        <label for="sexo" class="col-md-4 control-label">Sexo</label>
+                        <div class="col-md-8">
+                            @*@Html.TextBoxFor(model => model.Sexo, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })*@
+                            @Html.DropDownListFor(model => model.Sexo, new SelectList
+                              (ViewBag.ListaSexo, "Codigo", "Descripcion"), "--SELECCIONE--",
+                               new { @class = "selectpicker", @data_width = "100%" })
+                        </div>
+
+                        <label for="estadoCivil" class="col-md-4 control-label">Estado Civil</label>
+                        <div class="col-md-8">
+                            @*@Html.TextBoxFor(model => model.TipoEstadoCivil, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })*@
+                            @Html.DropDownListFor(model => model.TipoEstadoCivil, new SelectList
+                              (ViewBag.EstadoCivil, "Codigo", "Descripcion"), "--SELECCIONE--",
+                               new { @class = "selectpicker", @data_width = "100%" })
+                        </div>
+
+
+
+                        @*<div class="col-md-8">
+                        @Html.TextBoxFor(model => model.FechaNacimiento, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                    </div>*@
+
+                        <label for="telefono1" class="col-md-4 control-label">Teléfono 1</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(model => model.Telefono1, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                        </div>
+
+                        <label for="telefono2" class="col-md-4 control-label">Teléfono 2</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(model => model.Telefono2, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                        </div>
+
+                    </div>
+
+                    <label for="fechanacimiento" class="col-md-4 control-label">F.Nac</label>
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(model => model.FechaNacimiento, new { htmlAttributes = new { @class = "form-control datepicker", Value = @ViewData["fechaActual"], @type = "date" } })
+                    </div>
+
+
+                    <div class="col-md-12">
+                        <label for="nombreCompleto" class="col-md-2 control-label">Nombre Completo</label>
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(model => model.NombreCompleto, new { @class = "form-control input-sm toupper", @readonly = true })
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.HiddenFor(model => model.IdPersona)
+@if (!ViewData.ModelState.IsValid)
+    {
+        <div class="row form-horizontal">
+            <div class="col-sm-12 col-md-12">
+                <div class="alert alert-danger alert-error">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                        <h4>
+                            <i class="fa fa-warning text-danger" style="font-size:x-large;"></i> Error: Los siguientes datos son obligatorios
+                            <hr />
+                        </h4>
+                                @Html.ValidationSummary(false)
+                 </div>
+             </div>
+         </div>
+     }
+
+
+@*<script>
+    $(document).ready(function () {
+    $('.selectpicker').selectpicker();
+    })
+</script>*@
+
+
+<script>
+    $(document).ready(function () {
+        $('.selectpicker').selectpicker();
+
+
+        $('#FechaNacimiento').datepicker({
+            format: "dd/mm/yyyy",
+            language: "es",
+            todayHighlight: true,
+            autoclose: true
+        }).datepicker("setDate", new Date());
+
+
+    });
+
+</script>

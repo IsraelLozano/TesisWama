@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{C71CCB61-10E5-42AE-A169-5AB221C8605E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cliente", "Cliente", "{DBB36BCD-7C10-4AFC-8E65-F4793AB3A053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{A532BE80-69CD-42FC-8E5F-4748A5C31928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCertificadoSZL", "WebCertificadoSZL\WebCertificadoSZL.csproj", "{89F627DD-0118-4E61-B862-2BEACE9A4640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{E3973652-47EA-4EA7-A621-E9D9731D6A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{24F656AB-E958-45E1-AED1-3600C5478580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaNegocio", "LogicaNegocio\LogicaNegocio.csproj", "{F6189BB0-DD1E-4452-8DAF-E26C7356411E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89F627DD-0118-4E61-B862-2BEACE9A4640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F627DD-0118-4E61-B862-2BEACE9A4640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F627DD-0118-4E61-B862-2BEACE9A4640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F627DD-0118-4E61-B862-2BEACE9A4640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3973652-47EA-4EA7-A621-E9D9731D6A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3973652-47EA-4EA7-A621-E9D9731D6A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3973652-47EA-4EA7-A621-E9D9731D6A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3973652-47EA-4EA7-A621-E9D9731D6A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F656AB-E958-45E1-AED1-3600C5478580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F656AB-E958-45E1-AED1-3600C5478580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F656AB-E958-45E1-AED1-3600C5478580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F656AB-E958-45E1-AED1-3600C5478580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6189BB0-DD1E-4452-8DAF-E26C7356411E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6189BB0-DD1E-4452-8DAF-E26C7356411E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6189BB0-DD1E-4452-8DAF-E26C7356411E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6189BB0-DD1E-4452-8DAF-E26C7356411E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89F627DD-0118-4E61-B862-2BEACE9A4640} = {DBB36BCD-7C10-4AFC-8E65-F4793AB3A053}
+		{E3973652-47EA-4EA7-A621-E9D9731D6A30} = {A532BE80-69CD-42FC-8E5F-4748A5C31928}
+		{24F656AB-E958-45E1-AED1-3600C5478580} = {C71CCB61-10E5-42AE-A169-5AB221C8605E}
+		{F6189BB0-DD1E-4452-8DAF-E26C7356411E} = {C71CCB61-10E5-42AE-A169-5AB221C8605E}
+	EndGlobalSection
+EndGlobal

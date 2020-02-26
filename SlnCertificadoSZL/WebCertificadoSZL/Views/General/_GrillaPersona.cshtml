@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Entidades.Persona>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover table-condensed">
+        <thead class="small">
+            <tr class="text-center">
+                <th class="text-center col-md-1" scope="col">ID</th>
+                <th class="text-center ccol-md-2" scope="col">Nombre Completo</th>
+                <th class="text-center col-md-1" scope="col">Nro Documento</th>
+                <th class="text-center col-md-1" scope="col">Fec.Nacimiento</th>
+                <th class="text-center col-md-1" scope="col">Sexo</th>
+                <th class="text-center col-md-1" scope="col">Acción</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @if (Model.Any())
+            {
+                int cont = 0;
+                foreach (var item in Model)
+                {
+                    cont++;
+                    <tr>
+                        <td align="center">@item.IdPersona</td>
+                        <td align="center">@item.NombreCompleto</td>
+                        <td align="center">@item.NroDocidentidad</td>
+                        <td align="center">@item.FechaNacimiento</td>
+                        <td align="center">@item.NombreSexo</td>
+                        <td align="center">
+                            <button type="button" class="btn btn-info btn-xs modalUCP"
+                                    data-url="@Url.Action("NuevaPersona", "General", new { idpersona= item.IdPersona})"
+                                    title="Clic aquí para editar">
+                                <i class="glyphicon glyphicon-pencil"></i>
+                            </button>
+                            <button type="button" class="btn btn-danger btn-xs" title="Clic aquí para Anular"
+                                    onclick="AnularPersona('@item.IdPersona')">
+                                <i class="glyphicon glyphicon-trash"></i>
+                            </button>
+
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5">No se encontraron registros</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+
+<script>
+
+    function AnularPersona(idpersona) {
+            jqMensaje("¿Desea eliminar el registro seleccionado?", function (rest) {
+                if (rest) {
+                    $.getJSON('@Url.Action("AnularPersona", "General")', { 'IdPersona': idpersona }
+                , function (json) {
+                    if (json) {
+                        $("#frmListaPersonas").submit();
+                    }
+                });
+            }
+        });
+        }
+
+
+</script>
+

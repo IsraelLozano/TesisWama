@@ -1,0 +1,33 @@
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\AccesoDatos.dll
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\Entidades.dll
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\log4net.dll
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\Entidades.pdb
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+d:\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\AccesoDatos.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\Entidades.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\log4net.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\Entidades.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.csprojAssemblyReference.cache
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\AccesoDatos.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\Entidades.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\log4net.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\bin\Debug\Entidades.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.csprojAssemblyReference.cache
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CoreCompileInputs.cache
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.csproj.CopyComplete
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\LogicaNegocio\obj\Debug\LogicaNegocio.pdb

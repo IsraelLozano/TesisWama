@@ -1,0 +1,16 @@
+d:\SZL\SlnCertificadoSZL\Entidades\bin\Debug\Entidades.dll
+d:\SZL\SlnCertificadoSZL\Entidades\bin\Debug\Entidades.pdb
+d:\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+d:\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.dll
+d:\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\bin\Debug\Entidades.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\bin\Debug\Entidades.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.dll
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.pdb
+E:\Proyectos\SENATI\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\bin\Debug\Entidades.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\bin\Debug\Entidades.pdb
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.dll
+F:\Avance Tesis Wama\Firma digital\Fuentes\SZL\SlnCertificadoSZL\Entidades\obj\Debug\Entidades.pdb

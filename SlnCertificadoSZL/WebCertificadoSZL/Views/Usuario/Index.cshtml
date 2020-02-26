@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Entidades.Tblusuario>
+
+
+
+@{
+    ViewBag.Title = "Lista de Usuarios...";
+}
+
+@using (Ajax.BeginForm("Index", "Usuario",
+                                                    new AjaxOptions
+                                                    {
+                                                        HttpMethod = "GET",
+                                                        UpdateTargetId = "divGrillaUsuario",
+                                                        InsertionMode = InsertionMode.Replace
+                                                    }, new { @id = "frmListaUsuario" }))
+{
+    <div class="row">
+        <div class="col-md-12">
+            <fieldset class="dhhBorder">
+                <legend class="dhhBorder">Ingrese Parámetros de Búsqueda</legend>
+                <div class="row form-horizontal">
+                    <div class="col-sm-5 col-md-5">
+                        <div class="form-group">
+                            <label for="txtFiltro" class="col-md-2 control-label small">
+                                Filtro
+                            </label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control input-sm" name="txtFiltro" placeholder="Descripción Persona">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3">
+                        <button type="submit" class="btn btn-primary btn-sm"
+                                name="btnBuscar" value="btnBuscar">
+                            <i class="glyphicon glyphicon-search"></i> Buscar
+                        </button>
+
+                        <button type="button" class="btn btn-success btn-sm modalUCP"
+                                data-url="@Url.Action("NuevoUsuario","Usuario",new { idPersona = 0})">
+                            <i class="glyphicon glyphicon-new-window"></i> Nuevo
+                        </button>
+
+                        @*<a href="@Url.Action("NuevoZona","General")" class="btn btn-success btn-sm">
+                                <i class="glyphicon glyphicon-new-window"></i>Nuevo
+                            </a>*@
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <fieldset class="dhhBorder">
+                <legend class="dhhBorder">Listado de Usuarios</legend>
+                <div id="divGrillaUsuario">
+                    @Html.Partial("_GrillaUsuario", Model)
+                </div>
+            </fieldset>
+
+        </div>
+    </div>
+}
+
+

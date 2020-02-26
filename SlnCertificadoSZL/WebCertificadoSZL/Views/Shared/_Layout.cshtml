@@ -1,0 +1,198 @@
+﻿@*@using UtilesWeb*@
+<!doctype html>
+@{
+    var cadena = Context.IsDebuggingEnabled ? "/" : Url.Content("~/");
+    var user = "Usuario no válido";
+    if (!String.IsNullOrEmpty(User.Identity.Name))
+    {
+        user = User.Identity.Name;
+    }
+    //VariablesWeb.RutaServidor = cadena;
+    //var listaOpciones = VariablesWeb.ListaOpciones;
+
+}
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=EDGE" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SENATI ZONAL LORETO</title>
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/css/bootstrap-select.css" rel="stylesheet" />
+    <link href="~/Content/css/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Content/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/css/styles.dhh.css" rel="stylesheet" />
+    <link href="~/Content/css/kendo/kendo.common.min.css" rel="stylesheet" />
+    <link href="~/Content/css/kendo/kendo.default.min.css" rel="stylesheet" />
+
+
+    <script src="~/Scripts/core/jquery.js"></script>
+    <script src="~/Scripts/core/jquery-ui.min.js"></script>
+    <script src="~/Scripts/core/bootstrap.min.js"></script>
+    <script src="~/Scripts/core/bootstrap-select.min.js"></script>
+    <script src="~/Scripts/core/bootbox.min.js"></script>
+    <script src="~/Scripts/core/jquery.blockUI.js"></script>
+    <script src="~/Scripts/core/jquery.PrintThis.js"></script>
+    <script src="~/Scripts/core/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/core/modBase.js"></script>
+    <script src="~/Scripts/core/util.dhh.js"></script>
+    <script src="~/Scripts/core/paginacionhandler.js"></script>
+    <script src="~/Scripts/core/kendo/kendo.all.min.js"></script>
+    <script src="~/Scripts/core/modMensajes.js"></script>
+    <script src="~/Scripts/core/otf.js"></script>
+    <script>
+        var globalRutaServidor = '@cadena';
+        var globalDatoObligatorio = "Dato obligatorio";
+        var globalMaxRequestLength = ''; @*//'@Utiles.Variables.MaxBytesAdjunto';*@
+    </script>
+
+    <script>
+        $(function () {
+            $('#selectMenuMain').selectpicker();
+        });
+        $(window).on('load', function () {
+            $('.selectpicker').selectpicker();
+        });
+    </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Desplegar navegación</span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="padding: 0">
+                <img src="~/Content/img/logoSenati.png" width="110px" height="50px" />
+            </a>
+        </div>
+        <div id="menuTop" class="collapse navbar-collapse navbar-ex1-collapse">
+            @*@if (VariablesWeb.oUsuario != null)
+            {
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-user"></i>Bienvenido(a), <b>@VariablesWeb.oUsuario.NombreCompleto !!!</b> <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Usuario: @VariablesWeb.oUsuario.UsuarioCodigo</a></li>
+                            <li><a href="#" class="modalOEFA" data-url="@Url.Action("CambioClave", "Login")">Cambiar Clave</a></li>
+                            <li class="divider"></li>
+                            <li><a href="@String.Format("{0}{1}", cadena, "Login/CerrarSesion")">Cerrar Sesión</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-user"></i>Invitado <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="@String.Format("{0}{1}", cadena, "Login/Index")">Iniciar Sesión</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            }*@
+
+        </div>
+    </nav>
+    <div class="separatorPage-dhh">
+    </div>
+    <div class="container-fluid">
+        <div class="row" id="contentDocument">
+
+            <div id="menuLeft">
+                <ul class="menuDHH">
+                    <li>
+                        <i class="fa fa-list-alt"></i>Mantenimientos <i class="fa fa-chevron-right floatRight"></i>
+                        <ul class="subMenuDHH">
+                            <li><i class="fa fa-angle-right"></i><a href="@Url.Action("Index","Instructor")">Instructores</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="">Zonales</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="">Campus</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <i class="fa fa-user-times"></i>Seguridad<i class="fa fa-chevron-right floatRight"></i>
+                        <ul class="subMenuDHH">
+
+                            <li><i class="fa fa-angle-right"></i><a href="@Url.Action("Index","Usuario")">Usuarios</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <i class="fa fa-pencil"></i>Gestion de Actas<i class="fa fa-chevron-right floatRight"></i>
+                        <ul class="subMenuDHH">
+
+                            <li><i class="fa fa-angle-right"></i><a href="@Url.Action("ComponenteFirma","Certificado")">Firmar</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="">Validacion</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <i class="fa fa-file-excel-o"></i>Reportes<i class="fa fa-chevron-right floatRight"></i>
+                        <ul class="subMenuDHH">
+
+                            <li><i class="fa fa-angle-right"></i><a href="">Reportes 01</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href="">Reportes 02</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+            @*}*@
+            <div id="contentRight" class="col-xs-12 col-md-12">
+                @if (!string.IsNullOrEmpty(ViewBag.Title))
+                {
+                    <div class="titlePage">
+                        @ViewBag.Title
+                    </div>
+                }
+                @*@RenderSection("SubTitulo", required: false)*@
+                @*<ol class="breadcrumb">
+                        <li><a href="#"><i class="fa fa-folder-o"></i>Maestros</a></li>
+                        <li><a href="#"><i class="fa fa-arrow-circle-right"></i>Mantenimientos</a></li>
+                        <li class="active"><i class="fa fa-angle-double-right"></i>Mantenimiento de Marca</li>
+                    </ol>*@
+
+                <div class="container-fluid row main-content">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            Todos los derechos reservados ©@DateTime.Now.Year Copyright - SENATI
+            <i class="fa fa-phone"></i>
+            (065) 26-1088
+            <i class="fa fa-mail-forward"></i>
+            <a href="https://www.senati.edu.pe">https://www.senati.edu.pe</a>
+        </footer>
+    </div>
+
+    <div class="resolutionOff">
+        No soporta en esta resolución!
+    </div>
+    @*<div id="contenedor" class='modal fade in contenedor'
+             data-backdrop="static" data-keyboard="true">
+            <div class='seccionModal'>
+            </div>
+        </div>*@
+
+    <div id="contenedor" class='modal fade in'>
+        <div class='seccionModal'></div>
+    </div>
+
+    <div id="contenedorTemp" class='modal fade in'>
+        <div class='seccionModalTemp'></div>
+    </div>
+
+    <div id="resultadoAlerta" class="container"></div>
+
+
+    <script src="~/Scripts/core/otf.js"></script>
+</body>
+
+</html>

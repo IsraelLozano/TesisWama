@@ -1,0 +1,93 @@
+﻿@model Entidades.Tblusuario
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-sm-12 col-md-12">
+            <div class="row form-horizontal">
+                <div class="col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <label for="apellidoPaterno" class="col-md-15 control-label small">Instructor</label>
+                        <div class="col-md-16">
+                            @Html.DropDownListFor(model => model.IdPersona, new SelectList
+                              (ViewBag.Lista, "IdPersona", "NombreInstructor"), "--SELECCIONE--",
+                               new { @class = "selectpicker", @data_width = "100%" })
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row form-horizontal">
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="dni" class="col-md-4 control-label small" style="width: 22%;">Usuario:</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(model => model.UsuarioCodigo, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="sexo" class="col-md-4 control-label small">Clave</label>
+                        <div class="col-md-8">
+                            @Html.TextBoxFor(model => model.textoClave, new { @class = "form-control input-sm toupper", @onkeyup = "InputToUpper(this)" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-horizontal">
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="dni" class="col-md-4 control-label small">Estado</label>
+                        <div class="col-md-8">
+                            @Html.CheckBoxFor(model => model.Estado, new { @class = "Checkbox"})
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="sexo" class="col-md-4 control-label small">¿Reset?</label>
+                        <div class="col-md-8">
+                            @Html.CheckBoxFor(model => model.Reset, new { @class = "Checkbox" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    @Html.HiddenFor(model => model.IdPersona)
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="row form-horizontal">
+            <div class="col-sm-12 col-md-12">
+                <div class="alert alert-danger alert-error">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <h4>
+                        <i class="fa fa-warning text-danger" style="font-size:x-large;"></i> Error: Los siguientes datos son obligatorios
+                        <hr />
+                    </h4>
+                    @Html.ValidationSummary(false)
+                </div>
+            </div>
+        </div>
+    }
+
+    <script>
+        $(document).ready(function () {
+
+            $("#ApellidoPaterno").focus();
+
+            $('.selectpicker').selectpicker();
+
+           
+
+        });
+
+    </script>
